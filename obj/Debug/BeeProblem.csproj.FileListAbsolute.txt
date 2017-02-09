@@ -1,0 +1,6 @@
+c:\users\lenovo\documents\visual studio 2017\Projects\BeeProblem\BeeProblem\bin\Debug\BeeProblem.exe.config
+c:\users\lenovo\documents\visual studio 2017\Projects\BeeProblem\BeeProblem\bin\Debug\BeeProblem.exe
+c:\users\lenovo\documents\visual studio 2017\Projects\BeeProblem\BeeProblem\bin\Debug\BeeProblem.pdb
+c:\users\lenovo\documents\visual studio 2017\Projects\BeeProblem\BeeProblem\obj\Debug\BeeProblem.csprojResolveAssemblyReference.cache
+c:\users\lenovo\documents\visual studio 2017\Projects\BeeProblem\BeeProblem\obj\Debug\BeeProblem.exe
+c:\users\lenovo\documents\visual studio 2017\Projects\BeeProblem\BeeProblem\obj\Debug\BeeProblem.pdb
