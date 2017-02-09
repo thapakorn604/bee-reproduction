@@ -23,21 +23,22 @@ namespace BeeProblem
         static void Main(string[] args)
         {
             int year = Convert.ToInt32(Console.ReadLine())+4; //+4 if wanna use "Phi" function
-            double ans = ((1 / Math.Sqrt(5)) * (Math.Pow(((1 + Math.Sqrt(5)) / 2), year) - Math.Pow(((1 - Math.Sqrt(5)) / 2), year))) - 1;//Following"Phi"function
-/*          
- *          Another way , plase move out comments and comments the current way
- *          
- *          int q = 1;
-            int w = 1;
-            int s = 0;
+            //Following"Phi"function
+            double ans = ((1 / Math.Sqrt(5)) * (Math.Pow(((1 + Math.Sqrt(5)) / 2), year) - Math.Pow(((1 - Math.Sqrt(5)) / 2), year))) - 1;
+          
+/*         Another way , plase move out comments and comments the current code
+           
+           int q = 1;
+           int w = 1;
+           int s = 0;
             for (int i = 0; i<year;i++)
             {
-                int temp = w; //following 1+ ((w+s)+1)+1 formular
-                w = (w + s) + q;
-                s = temp;
-            }*/
-            Console.WriteLine(ans);
-            //Console.WriteLine(q+w+s);
+             int temp = w; //following 1+ ((w+s)+1)+1 formular
+             w = (w + s) + q;
+             s = temp;
+            }
+            Console.WriteLine(q+w+s); */
+            Console.WriteLine(ans);           
             Console.ReadKey();
         }
     }
