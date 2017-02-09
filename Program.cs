@@ -22,7 +22,7 @@ namespace BeeProblem
     {
         static void Main(string[] args)
         {
-            int year = Convert.ToInt32(Console.ReadLine())+4; //+4 if wanna use "Phi" function
+            int year = Convert.ToInt32(Console.ReadLine())+4; //+4 if wanna use "Phi" function and remove if you run with another way
             //Following"Phi"function
             double ans = ((1 / Math.Sqrt(5)) * (Math.Pow(((1 + Math.Sqrt(5)) / 2), year) - Math.Pow(((1 - Math.Sqrt(5)) / 2), year))) - 1;
           
@@ -37,7 +37,7 @@ namespace BeeProblem
              w = (w + s) + q;
              s = temp;
             }
-            Console.WriteLine(q+w+s); */
+            Console.WriteLine(q+w+s);*/
             Console.WriteLine(ans);           
             Console.ReadKey();
         }
